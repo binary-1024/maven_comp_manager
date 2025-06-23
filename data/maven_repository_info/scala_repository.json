@@ -1,0 +1,10 @@
+{
+    "org.apache.spark/spark-core": {
+        "label":"scala",
+        "repository":"https://repo1.maven.org/maven2",
+        "artifacts":[
+            "spark-core_2.12",
+            "spark-core_2.13"
+        ]
+    }
+}

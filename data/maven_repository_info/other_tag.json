@@ -1,0 +1,529 @@
+{
+    "org.apache.spark:spark-core": {
+        "label":"ga_diff",
+        "repository":"https://repo1.maven.org/maven2",
+        "artifact_id":[
+            "spark-core_2.12",
+            "spark-core_2.13"
+        ]
+    },
+    "org.jenkins-ci.plugins:hp-quality-center":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "group_id":[
+            "org.jenkins-ci.plugins.qc"
+        ]
+    },
+    "org.jenkins-ci.plugins:gcal":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "group_id":[
+            "org.jvnet.hudson.plugins"
+        ],
+        "comment":"jenkisn 是从 jvnet.hudson.plugins中发展出来的分支"
+    },
+    "org.jenkins-ci.plugins:squashtm-publisher-plugin":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "artifact_id":[
+            "squashtm-publisher"
+        ]
+    },
+    "org.jenkins-ci.plugins:pipeline-model-definition":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "group_id":[
+            "org.jenkinsci.plugins"
+        ]
+    },
+    "org.jenkins-ci.plugins:scp":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "group_id":[
+            "org.jvnet.hudson.plugins"
+        ]
+    },
+    "org.jenkins-ci.plugins:telegrambot":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "artifact_id":[
+            "telegram-notifications"
+        ]
+    },
+    "org.jenkins-ci.plugins:partial-release-manager":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "artifact_id":[
+            "svn-partial-release-mgr"
+        ]
+    },
+    "org.jenkins-ci.plugins:cisco-spark-notifier-plugin":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "artifact_id":[
+            "cisco-spark-notifier"
+        ]
+    },
+    "io.jenkins.plugins:embeddable-build-status-plugin":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "group_id":[
+            "org.jenkins-ci.plugins"
+        ],
+        "artifact_id":[
+            "embeddable-build-status"
+        ]
+    },
+    "org.jenkins-ci.main:associated-files-plugin":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "group_id":[
+            "org.jenkinsci.plugins"
+        ],
+        "artifact_id":[
+            "associated-files"
+        ]
+    },
+    "org.jenkins-ci.main:cavisson-ns-nd-integration":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "group_id":[
+            "io.jenkins.plugins"
+        ]
+    },
+    "org.jenkins-ci.main:reverse-proxy-auth-plugin":{
+        "label":"ga_diff",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "group_id":[
+            "org.jenkins-ci.plugins"
+        ]
+    },
+    "org.jenkins-ci.main:config-rotator":{
+        "label":"repo_lost",
+        "repository":"https://repo.jenkins-ci.org/releases",
+        "comment":"404 jenkins 里面暂时关闭了这个组件, 因为漏洞问题, jenkins 有一批暂时关闭的组件"
+    },
+    "org.geoserver:gs-wps":{
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "group_id":[
+            "org.geoserver.extension"
+        ],
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver:gs-main": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver.web:gs-web-app": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver:gs-gwc": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver:gs-ows": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver:gs-gwc-rest": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver:gs-restconfig": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver.extension:gs-mapml": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver:gs-platform": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver:gs-wms": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver:gs-wfs": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver.web:gs-web-core": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver.community:gs-jdbcconfig": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.geoserver.extension:gs-wps-core": {
+        "label":"ga_diff",
+        "repository":"https://repo.osgeo.org/repository/Geoserver-releases",
+        "suffix":"maven-metadata.xml"
+    },
+    "org.apache.axis2.wso2:axis2":{
+        "label": "ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "group_id": [
+            "org.apache.axis2"
+        ],
+        "artifact_id": [
+            "axis2"
+        ],
+        "comment": "仓库迁移"
+    },
+    "org.apache.ambari.contrib.views:ambari-contrib-views":{
+        "label": "repo_lost",
+        "comment": "503 Service Temporarily Unavailable"
+    },
+    "org.apache.ambari.contrib.views:wfmanager":{
+        "label": "repo_lost",
+        "comment": "503 Service Temporarily Unavailable"
+    },
+    "org.apache.sanselan:sanselan":{
+        "label": "tag_lost",
+        "versions": [
+            "0.97-incubator"
+        ],
+        "repository": "https://repo1.maven.org/maven2",
+        "comment": "无 xml文件来读取 tags, 但是存在一个版本叫 0.97-incubator. 之后版本 仓库迁移到 https://mvnrepository.com/artifact/org.apache.commons/commons-imaging"
+    }, 
+    "org.jboss.resteas:resteasy-jaxrs": {
+        "label": "ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "group_id": [
+            "org.jboss.resteasy"
+        ],
+        "comment": "申请漏洞的人在 ghsa 官方页面 记载的信息有误, 少写了个 y"
+    },
+    "org.silverpeas:silverpeas-core": {
+        "label": "ga_diff",
+        "repository": "https://www.silverpeas.org/nexus/content/repositories/public",
+        "group_id": [
+            "org.silverpeas.core"
+        ],
+        "comment": "申请漏洞的人在 ghsa 官方页面 记载的信息有误, 少写了个 core"
+    },
+    "org.silverpeas.core:silverpeas-core-seb":{
+        "label": "ga_diff",
+        "repository": "https://www.silverpeas.org/nexus/content/repositories/public",
+        "artifact_id": [
+            "silverpeas-core-web"
+        ],
+        "comment": "申请漏洞的人在 ghsa 官方页面 记载的信息有误, 把 web 写成了 seb"
+    },
+    "com.typesafe.play:play": {
+        "label": "ga_diff",
+        "repository": "https://repo.akka.io/maven",
+        "artifact_id": [
+            "play_2.13",
+            "play_2.12",
+            "play_3"
+        ],
+        "comment": "scala"
+    },
+    "com.typesafe.play:play-java": {
+        "label": "ga_diff",
+        "repository": "https://repo.akka.io/maven",
+        "artifact_id": [
+            "play-java_2.13",
+            "play-java_2.12",
+            "play-java_3"
+        ],
+        "comment": "scala"
+    },
+    "org.opennms.features:org.opennms.features.measurements":{
+        "label":"repo_lost",
+        "comment" :"404 仓库应该不再运行了"
+    },
+    "org.opennms:opennms-provision":{
+        "label":"repo_lost",
+        "comment" :"404 仓库应该不再运行了"
+    },
+    "org.opennms.core:org.opennms.core.daemon":{
+        "label":"repo_lost",
+        "comment" :"404 仓库不再运行了"
+    },
+    "org.opennms:opennms-webapp":{
+        "label":"repo_lost",
+        "comment" :"404 仓库不再运行了"
+    },
+    "org.opennms:opennms-webapp-rest":{
+        "label":"repo_lost",
+        "comment" :"404 仓库不再运行了"
+    },
+    "org.opennms.core:org.opennms.core.xml":{
+        "label":"repo_lost",
+        "comment" :"404 仓库不再运行了"
+    },
+    "org.opennms:opennms-base-assembly":{
+        "label":"repo_lost",
+        "comment" :"404 仓库不再运行了"
+    },
+    "org.opennms:opennms-config":{
+        "label":"repo_lost",
+        "comment" :"404 仓库不再运行了"
+    },
+    "org.http4s:http4s-core":{
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "http4s-core_2.13",
+            "http4s-core_2.12",
+            "http4s-core_3"
+        ]
+    },
+    "org.http4s:http4s-server":{
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "http4s-server_2.13",
+            "http4s-server_2.12",
+            "http4s-server_3"
+        ]
+    },
+    "org.http4s:http4s-client":{
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "http4s-client_2.13",
+            "http4s-client_2.12",
+            "http4s-client_3"
+        ]
+    },
+    "org.opensearch:opensearch-security":{
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "group_id": [
+            "org.opensearch.plugin"
+        ]
+    },
+    "com.hccake:ballcat-codegen":{
+        "label":"repo_lost",
+        "comment": "404 仓库应该不再运行了"
+    },
+    "com.smartbear.soapui:soapui":{
+        "label":"repo_lost",
+        "comment": "404 仓库运行, 但是组件没了"
+    },
+    "com.gitblit:gitblit":{
+        "label":"repo_lost",
+        "repository": "https://gitblit.github.io/gitblit-maven",
+        "comment": "404 仓库关了, 这个组件最后维护是在 2022 年"
+    },
+    "rg.mule.modules:mule-apikit-module":{
+        "label":"ga_diff",
+        "repository": "https://repository.mulesoft.org/releases",
+        "group_id": [
+            "org.mule.modules"
+        ]
+    },
+    "org.restlet.jse:org.restlet": {
+        "label":"manual_tag",
+        "repository": "https://maven.restlet.talend.com",
+        "comment": "这家仓库奇怪, 无法直接访问或浏览目录, 必须拼凑具体的 pom 或者 jar 文件名才可以下载文件, 我们手动下载了所有的版本呢"
+    },
+    "org.restlet.jse:org.restlet.ext.jaxrs": {
+        "label":"manual_tag",
+        "repository": "https://maven.restlet.talend.com",
+        "comment": "这家仓库奇怪, 无法直接访问或浏览目录, 必须拼凑具体的 pom 或者 jar 文件名才可以下载文件, 我们手动下载了所有的版本呢"
+    },
+    "com.google.android.gms:play-services-basement":{
+        "label":"ga_diff",
+        "repository": "https://maven.google.com",
+        "comment": "这个仓库单纯无法访问, 必须具体到文件目录的 url 全名"
+    },
+    "org.ohdsi:WebAPI": {
+        "label":"repo_lost",
+        "comment": "404 仓库应该不再运行了"
+    },
+    "org.igniterealtime.openfire:openfire": {
+        "label":"repo_lost",
+        "comment": "404 仓库应该不再运行了"
+    },
+    "io.really:jwt-scala": {
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "jwt-scala_2.11",
+            "jwt-scala_2.10"
+        ]
+    },
+    "com.gradle.plugin-publish:com.gradle.plugin-publish.gradle.plugin": {
+        "label":"ga_diff",
+        "repository": "https://plugins.gradle.org/m2",
+        "artifact_id": [
+            "com.gradle.plugin-publish.gradle.plugin"
+        ],
+        "comment": "这个仓库有点离谱, 他的 url 里面 artifact 没有替换.为/而是保留了点 所以需要特殊处理"
+    },
+    "com.walmartlabs.concord.docker:concord-common": {
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "group_id": [
+            "com.walmartlabs.concord"
+        ]
+    },
+    "org.deeplearning4j:platform-tests": {
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "deeplearning4j-common-tests"
+        ]
+    },
+    "org.deeplearning4j:dl4j-examples": {
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "deeplearning4j-examples"
+        ]
+    },
+    "co.fs2:fs2-io": {
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "fs2-io_3",
+            "fs2-io_2.13",
+            "fs2-io_2.12"
+        ]
+    },
+    "org.gluu:oxauth-common": {
+        "label":"repo_lost",
+        "repository": "https://ox.gluu.org/maven",
+        "comment": "403, 无权访问, 无法下载"
+    },
+    "org.typelevel:jawn-parser":{
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "jawn-parser_3",
+            "jawn-parser_2.13",
+            "jawn-parser_2.12"
+        ]
+    },
+    "io.spray:spray-json":{
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "artifact_id": [
+            "spray-json_2.12",
+            "spray-json_2.13",
+            "spray-json_3"
+        ]
+    },
+    "nl.basjes.parse.useragent:yauaa-nifi-processors":{
+        "label":"repo_lost",
+        "comment": "Maven上根本就没有这个仓库"
+    },
+    "com.github.blynkkk:blynk-server":{
+        "label":"repo_lost",
+        "comment": "404 仓库无法连接, 最后更新时间 2021年"
+    },
+    "org.verapdf:library-arlington":{
+        "label":"ga_diff",
+        "repository": "https://artifactory.openpreservation.org/artifactory/vera-dev",
+        "artifact_id": [
+            "verapdf-library-arlington"
+        ]
+    },
+    "org.verapdf:library-jakarta":{
+        "label":"ga_diff",
+        "repository": "https://artifactory.openpreservation.org/artifactory/vera-dev",
+        "artifact_id": [
+            "verapdf-library-jakarta"
+        ]
+    },
+    "org.verapdf:library":{
+        "label":"ga_diff",
+        "repository": "https://artifactory.openpreservation.org/artifactory/vera-dev",
+        "artifact_id": [
+            "verapdf-library"
+        ]
+    },
+    "org.verapdf:verapdf.library":{
+        "label":"ga_diff",
+        "repository": "https://artifactory.openpreservation.org/artifactory/vera-dev",
+        "artifact_id": [
+            "verapdf-library"
+        ]
+    },
+    "org.bouncycastle:bcprov-jdk13":{
+        "label":"ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "group_id": [
+            "bouncycastle"
+        ],
+        "comment": "这个仓库 groupid 错了, 且不应该存在"
+    },
+    "io.dataease:common":{
+        "label": "repo_lost",
+        "repository": "https://repository.fit2cloud.com/content/repository/public",
+        "comment": "404 没有对应仓库"
+    },
+    "io.crate:crate":{
+        "label": "repo_lost",
+        "repository": "https://jcenter.bintray.com",
+        "comment": "404 没有对应仓库"
+    },
+    "com.xuxueli:xxl-job-admin":{
+        "label": "repo_lost",
+        "repository": "http://nexus.dev.dtstack.cn/nexus/content/repositories/dtstack-release",
+        "comment": "404 仓库无法连接"
+    },
+    "com.xuxueli:xxl-conf-admin":{
+        "label": "repo_lost",
+        "comment": "404 maven 就没这个仓库"
+    },
+    "org.jeecgframework.boot:jeecg-module-system":{
+        "label": "repo_lost",
+        "repository": "https://maven.jeecg.org/nexus/content/repositories/jeecg",
+        "comment": "404 仓库无法连接"
+    },
+    "org.jeecgframework.p3:jeecg-p3-biz-chat":{
+        "label": "repo_lost",
+        "repository": "https://maven.jeecg.org/nexus/content/repositories/jeecg",
+        "comment": "404 仓库无法连接"
+    },
+    "org.b3log:symphony":{
+        "label": "repo_lost",
+        "comment": "404 maven 没有这个仓库"
+    },
+    "io.ratpack:ratpack-java":{
+        "label": "repo_lost",
+        "comment": "404 maven 没有这个仓库, 估计 cve 登录有误, 多个仓里的这个是有问题的"
+    },
+    "com.mintegral.msdk:alphab":{
+        "label": "repo_lost",
+        "comment": "404 仓库失去连接"
+    },
+    "com.netflix.spinnaker.orca:orca-core":{
+        "label": "manual_tag",
+        "repository": "https://netflixoss.jfrog.io/artifactory/spinnaker",
+        "comment": "这个仓库奇怪, 无法直接访问或浏览目录, 必须拼凑具体的 pom 或者 jar 文件名才可以下载文件, 我们手动下载了所有的版本呢"
+    },
+    "com.starkbank:starkbank-ecdsa":{
+        "label": "ga_diff",
+        "repository": "https://repo1.maven.org/maven2",
+        "group_id": [
+            "com.starkbank.ellipticcurve"
+        ]
+    },
+    "org.elasticsearch.plugin:x-pack":{
+        "label": "repo_lost",
+        "comment": "404 仓库中不再有这个组件了"
+    }
+}
